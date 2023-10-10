@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(249, 250, 202);
+    color: rgb(245, 248, 82);
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 20pt;
+    text-align: left;
+}
+div{
+    text-align: center;
+}
+h1{
+	background-color: rgb(252, 189, 54);
+	font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+h3{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 10% auto 20%;
+	grid-gap: 10px;
+}
+.grid-container > div{
+    border: 1px solid rgb(74, 5, 235);
+	font-size: 40px;
+	text-align: auto;
+	background-color:white;
+}
+#header{
+	background-color:rgb(115, 198, 247);
+	border: 10px dotted blue;
+}
+
+#pic{
+    margin-left: 460%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    border: 10px dotted #9fff50;
+}
+#portfolio{
+	border: 10px dotted #9fff50;
+}
+#about{
+	border: 10px dotted #9fff50;
+}
+#pro{
+	border: 10px dotted #9fff50;
+}
+
+#Contact{
+	border: 10px dotted #9fff50;
+}
+
